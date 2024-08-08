@@ -1,0 +1,4 @@
+Salut, pour résoudre le bug de render:
+
+1 - Clic droits dans les assets RéimportAll
+2 - Valider que tout marche (surtout le TextMeshPro)

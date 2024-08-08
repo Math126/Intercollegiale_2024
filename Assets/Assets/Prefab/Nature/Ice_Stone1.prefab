@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6850429969667524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.4162128
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.76140904
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.707483
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d08c3a29df3e32e478d65226eaa4463a, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 25beb086228ce1f48a62e85d274a1660, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      propertyPath: m_Name
+      value: Ice_Stone1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1651b2a4112fd82478b398d502c03f57,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6928929014428406272}
+  m_SourcePrefab: {fileID: 100100000, guid: 1651b2a4112fd82478b398d502c03f57, type: 3}
+--- !u!1 &925841291746191509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1651b2a4112fd82478b398d502c03f57,
+    type: 3}
+  m_PrefabInstance: {fileID: 6850429969667524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &6928929014428406272
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925841291746191509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3720551589674065424, guid: 1651b2a4112fd82478b398d502c03f57, type: 3}
